@@ -1,0 +1,26 @@
+Stückliste exportiert aus D:/Turi/led/EagleProjekte/MoodLight/MoodLightv21.sch am 16.03.2010 22:06:14
+
+Bauteil Wert          Device          Package      Description                           
+7805    7805TV        7805TV          TO220V       Positive VOLTAGE REGULATOR            
+ATMEGA8 ATMEGA168-20P ATMEGA168-20P   DIL28-3      MICROCONTROLLER                       
+C10     100nF         C-EU025-024X044 C025-024X044 CAPACITOR, European symbol            
+C11     100nF         C-EU025-024X044 C025-024X044 CAPACITOR, European symbol            
+C12     10µF          CPOL-EUE2.5-5   E2,5-5       POLARIZED CAPACITOR, European symbol  
+C16     100nF         C-EU025-024X044 C025-024X044 CAPACITOR, European symbol            
+C18     100nF         C-EU025-024X044 C025-024X044 CAPACITOR, European symbol            
+D1      1N4148        1N4148          DO35-10      DIODE                                 
+D2      1N4148        BAS15           DO34-7       DIODE                                 
+ENCODER               MA04-1          MA04-1       PIN HEADER                            
+H1      MOUNT-HOLE3.3 MOUNT-HOLE3.3   3,3          MOUNTING HOLE with drill center marker
+H2      MOUNT-HOLE3.3 MOUNT-HOLE3.3   3,3          MOUNTING HOLE with drill center marker
+H3      MOUNT-HOLE3.3 MOUNT-HOLE3.3   3,3          MOUNTING HOLE with drill center marker
+IC1     ULN2003AN     ULN2003AN       DIL16        DRIVER ARRAY                          
+IC2     ULN2003AN     ULN2003AN       DIL16        DRIVER ARRAY                          
+ISP     AVR-ISP       AVR-ISP         ML10                                               
+LED1                  MA04-1          MA04-1       PIN HEADER                            
+LED2                  MA04-1          MA04-1       PIN HEADER                            
+LED3                  MA04-1          MA04-1       PIN HEADER                            
+LED4                  MA04-1          MA04-1       PIN HEADER                            
+R                     10-XX           B3F-10XX     OMRON SWITCH                          
+R3      100K          R-EU_0207/10    0207/10      RESISTOR, European symbol             
+X1      12V DC        AK500/2         AK500/2      CONNECTOR                             
