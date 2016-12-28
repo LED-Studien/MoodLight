@@ -1,0 +1,474 @@
+Archive member included because of file (symbol)
+
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                              MoodLight2x2_V12.o (__udivmodhi4)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+                              MoodLight2x2_V12.o (__divmodhi4)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o (exit)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                              MoodLight2x2_V12.o (__do_copy_data)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                              MoodLight2x2_V12.o (__do_clear_bss)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o)
+                              MoodLight2x2_V12.o (rand)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o) (__mulsi3)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o) (__divmodsi4)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o) (__prologue_saves__)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o) (__epilogue_restores__)
+d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                              d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+pwm_queue           0xc               MoodLight2x2_V12.o
+pwm_timing_B        0xd               MoodLight2x2_V12.o
+pwm_mask_PORTB_B    0xd               MoodLight2x2_V12.o
+pwm_cycle           0x1               MoodLight2x2_V12.o
+pwm_mask_PORTD_B    0xd               MoodLight2x2_V12.o
+pwm_change          0x1               MoodLight2x2_V12.o
+pwm_mask_PORTB_A    0xd               MoodLight2x2_V12.o
+pwm_value           0xc               MoodLight2x2_V12.o
+enc_delta           0x1               MoodLight2x2_V12.o
+pwm_timing_A        0xd               MoodLight2x2_V12.o
+pwm_mask_PORTD_A    0xd               MoodLight2x2_V12.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+LOAD MoodLight2x2_V12.o
+LOAD d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+LOAD d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a
+LOAD d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1416
+ *(.vectors)
+ .vectors       0x00000000       0x34 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000034       0x14 MoodLight2x2_V12.o
+ *(.progmem*)
+ .progmem.data  0x00000048       0x80 MoodLight2x2_V12.o
+                0x00000048                bri_table_8
+                0x000000c8                . = ALIGN (0x2)
+                0x000000c8                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000c8        0x0 linker stubs
+ *(.trampolines*)
+                0x000000c8                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000c8                __ctors_start = .
+ *(.ctors)
+                0x000000c8                __ctors_end = .
+                0x000000c8                __dtors_start = .
+ *(.dtors)
+                0x000000c8                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000c8        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+                0x000000c8                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000c8        0xc d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000d4       0x16 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+                0x000000d4                __do_copy_data
+ .init4         0x000000ea       0x10 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+                0x000000ea                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000fa        0x4 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000fe        0x2 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+                0x000000fe                __vector_22
+                0x000000fe                __vector_1
+                0x000000fe                __vector_24
+                0x000000fe                __bad_interrupt
+                0x000000fe                __vector_6
+                0x000000fe                __vector_3
+                0x000000fe                __vector_23
+                0x000000fe                __vector_25
+                0x000000fe                __vector_13
+                0x000000fe                __vector_17
+                0x000000fe                __vector_19
+                0x000000fe                __vector_5
+                0x000000fe                __vector_4
+                0x000000fe                __vector_9
+                0x000000fe                __vector_2
+                0x000000fe                __vector_21
+                0x000000fe                __vector_15
+                0x000000fe                __vector_8
+                0x000000fe                __vector_14
+                0x000000fe                __vector_10
+                0x000000fe                __vector_16
+                0x000000fe                __vector_18
+                0x000000fe                __vector_20
+ .text          0x00000100     0x10ec MoodLight2x2_V12.o
+                0x00000612                __vector_12
+                0x00000322                encode_read2
+                0x00000100                HSB2RGB
+                0x0000053c                __vector_11
+                0x00000336                encode_read4
+                0x000002c6                __vector_7
+                0x0000028e                encode_init
+                0x000006b0                main
+                0x00000520                delay_ms
+                0x0000034c                pwm_update
+                0x00000314                encode_read1
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .text          0x000011ec        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                0x000011ec                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000011ec       0x28 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                0x000011ec                __udivmodhi4
+ .text.libgcc   0x00001214       0x26 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+                0x00001214                __divmodhi4
+                0x00001214                _div
+ .text.libgcc   0x0000123a        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x0000123a        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000123a        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000123a       0xb2 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o)
+                0x000012ca                rand_r
+                0x000012ce                rand
+                0x000012d6                srand
+ .text.libgcc   0x000012ec       0x3e d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+                0x000012ec                __mulsi3
+ .text.libgcc   0x0000132a       0x36 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o)
+                0x0000132a                __divmodsi4
+ .text.libgcc   0x00001360       0x38 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                0x00001360                __prologue_saves__
+ .text.libgcc   0x00001398       0x36 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                0x00001398                __epilogue_restores__
+ .text.libgcc   0x000013ce       0x44 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                0x000013ce                __udivmodsi4
+                0x00001412                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001412        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                0x00001412                exit
+                0x00001412                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001412        0x4 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001416                _etext = .
+
+.data           0x00800100       0x36 load address 0x00001416
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+ .data          0x00800100       0x31 MoodLight2x2_V12.o
+                0x0080010c                pwm_pin
+                0x00800100                ptr_PORTB_main
+                0x00800108                ptr_PORTD_isr
+                0x00800102                ptr_PORTD_main
+                0x00800118                pwm_port
+                0x00800104                ptr_timing_main
+                0x00800106                ptr_PORTB_isr
+                0x00800130                iProg
+                0x0080010a                ptr_timing_isr
+ .data          0x00800131        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .data          0x00800131        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+ .data          0x00800131        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .data          0x00800131        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .data          0x00800131        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00800131        0x4 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o)
+ .data          0x00800135        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .data          0x00800135        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o)
+ .data          0x00800135        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .data          0x00800135        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .data          0x00800135        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800136                . = ALIGN (0x2)
+ *fill*         0x00800135        0x1 00
+                0x00800136                _edata = .
+                0x00800136                PROVIDE (__data_end, .)
+
+.bss            0x00800136       0x6b
+                0x00800136                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800136        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm88p.o
+ .bss           0x00800136        0x2 MoodLight2x2_V12.o
+                0x00800136                bChangeProg
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(rand.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodsi4.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+ .bss           0x00800138        0x0 d:/programme/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800138       0x69 MoodLight2x2_V12.o
+                0x00800138                pwm_queue
+                0x00800144                pwm_timing_B
+                0x00800151                pwm_mask_PORTB_B
+                0x0080015e                pwm_cycle
+                0x0080015f                pwm_mask_PORTD_B
+                0x0080016c                pwm_change
+                0x0080016d                pwm_mask_PORTB_A
+                0x0080017a                pwm_value
+                0x00800186                enc_delta
+                0x00800187                pwm_timing_A
+                0x00800194                pwm_mask_PORTD_A
+                0x008001a1                PROVIDE (__bss_end, .)
+                0x00001416                __data_load_start = LOADADDR (.data)
+                0x0000144c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008001a1        0x0
+                0x008001a1                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008001a1                PROVIDE (__noinit_end, .)
+                0x008001a1                _end = .
+                0x008001a1                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 MoodLight2x2_V12.o
+
+.debug_pubnames
+                0x00000000      0x226
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x226 MoodLight2x2_V12.o
+
+.debug_info     0x00000000      0xfb3
+ *(.debug_info)
+ .debug_info    0x00000000      0xfb3 MoodLight2x2_V12.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x26e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x26e MoodLight2x2_V12.o
+
+.debug_line     0x00000000      0xd3a
+ *(.debug_line)
+ .debug_line    0x00000000      0xd3a MoodLight2x2_V12.o
+
+.debug_frame    0x00000000       0xc0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc0 MoodLight2x2_V12.o
+
+.debug_str      0x00000000      0x352
+ *(.debug_str)
+ .debug_str     0x00000000      0x352 MoodLight2x2_V12.o
+                                0x3a8 (size before relaxing)
+
+.debug_loc      0x00000000     0x1258
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x1258 MoodLight2x2_V12.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(MoodLight2x2_V12_88p.elf elf32-avr)
+LOAD linker stubs
